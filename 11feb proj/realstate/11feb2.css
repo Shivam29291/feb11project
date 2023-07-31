@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+/*removing default styling of li items*/
+li{
+    list-style: none;
+}
+/*removing the default decoration of a tags*/
+a{
+    text-decoration: none;
+}
+/*design of every button*/
+button{
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+body{
+   background: color #f6f8fa; ;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url("./2feb11pic/mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+/*design the navigation menu*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+nav img{
+    height: 45px;
+    width: 120px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    margin-right: 50px;
+    color:#ffffff;
+    font-size: 18px;
+  }
+  
+  hr {
+    margin: 0 100px;
+  }
+  /* designing the div inside the header */
+header div {
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 85px;
+  }
+  
+  header div h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+  }
+  
+  header div p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 410px;
+  }
+  /* designing the multiple logos box */
+.blueLogo {
+    background-color: #fff;
+    margin: 0 35px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .blueLogo img {
+    width: 156px;
+    height: 38px;
+  }
+  /*design card wraper section*/
+  .cardsWrapperSection h1{
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+  .cardsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position:relative;
+  }
+  /*design card image*/
+  .card{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .card img{
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  /*design the card box*/
+  .cardBox{
+    width: 320px;
+    height: 121px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+    position: absolute;
+    bottom: -60px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cardBox button{
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+  }
+  .cardBox div h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cardBox div p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+  }
+  /*giving different margin top value to position wrapper*/
+  .cardsWrapper div:nth-child(2){
+    margin-top: 50px;
+  }
+  .cardsWrapper div:nth-child(3){
+    margin-top: 100px;
+  }
+  .cardsWrapper div:nth-child(4){
+    margin-top: 150px;
+  }
+  .cardsWrapper div:nth-child(5){
+    margin-top: 100px;
+  }
+  .cardsWrapper div:nth-child(6){
+    margin-top: 50px;
+  }
+  .cardsWrapper div:nth-child(7){
+    margin-top:50px ;
+  }  
+  .cardsWrapper div:nth-child(8){
+    margin-top: 100px;
+  }
+  .cardsWrapper div:nth-child(9){
+    margin-top: 150px;
+  }
+/*design for features section*/
+  .featuresSection{
+    display: flex;
+  align-items: center;
+   justify-content: center;
+   margin-top: 250px;
+}
+.featuresSection div{
+  width: 50%;
+}
+/*design for first feature section*/
+.firstFeatureSection div:first-child img:first-child{
+  position:absolute;
+  left: -80px;
+  width: 726px;
+  height: 456px;
+}
+.firstFeatureSection div:first-child img:last-child{
+  position: relative;
+  width: 405px;
+  height: 405px;
+  border-radius: 51px;
+  bottom: 55px;
+  left: 110px;
+}
+/*design for features section*/
+.featuresSection h1{
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+}
+.featuresSection p{
+  font-weight:500;
+  font-size:18px;
+  color: #585c65;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+.featuresSection button{
+  font-weight: 700;
+}
+/*design for second feature section*/
+.secondFeatureSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondFeatureSection div{
+  width: 50%;
+}
+.secondFeatureSection div:last-child{
+  position: relative;
+}
+.secondFeatureSection div:last-child img:first-child{
+  position:absolute;
+  right: 0;
+  width: 726px;
+  height: 456px;
+  bottom: -220px;
+}
+.secondFeatureSection div:last-child img:last-child{
+  position:absolute;
+  width: 405px;
+  height: 405px;
+  border-radius: 51px;
+  right: 135px;
+  bottom:-110px;
+}
+.secondFeatureSection div:first-child{
+  padding: 0 50px;
+}
+.secondFeatureSection div:first-child h1{
+  width: 90%;
+}
+/*design the news letter section*/
+.newsLetter{
+  margin: 100px 70px;
+  background: #6663e9;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  padding: 70px 0;
+  color: #ffffff;
+}
+.newsLetter h1{
+  font-weight: 800;
+  font-size: 60px;
+}
+.newsLetter p{
+  font-weight: 400;
+  font-size: 18px;
+  width: 55%;
+}
+/*design the form*/
+.newsLetter form{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.newsLetter form div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #5654d1;
+  border-radius: 40px;
+  width: 468px;
+  height: 61px;
+  padding: 0 20px;
+}
+.newsLetter form input {
+  background-color: transparent;
+  border: none;
+}
+
+.newsLetter form button {
+  background: #ffffff;
+  border-radius: 40px;
+  width: 174px;
+  height: 61px;
+  color: #6663e9;
+}
+/*design for footer area*/
+footer{
+  display: flex;
+  align-items:flex-start;
+  margin: 0 100px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+footer div:first-child{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div:first-child img{
+  width: 150px;
+}
+footer div:first-child div img{
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+}
+footer div:first-child p {
+  width: 323px;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* design the footer links */
+.footerLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.footerLinksContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinksContent ul li a {
+  color: black;
+}
+
+.footerLinksContent ul li:first-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footerLinksContent ul li{
+    margin-bottom: 25px;
+}
+
